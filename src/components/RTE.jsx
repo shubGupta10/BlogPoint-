@@ -18,6 +18,7 @@ export default function RTE({name, control, label, defaultValue ="",  apiKey}) {
         init={{
             initialValue: defaultValue,
             height: 500,
+            width: 800,
             menubar: true,
             plugins: [
                 "image",
